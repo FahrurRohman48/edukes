@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informasi Demam Berdarah Dengue (DBD)</title>
+    <title>Demam Berdarah Dengue (DBD)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,11 +34,24 @@
             margin: 20px 0;
             color: #003366; /* Warna teks artikel biru */
         }
+        .back-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #004080; /* Warna latar belakang tombol biru gelap */
+            color: #fff; /* Warna teks putih */
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .back-button:hover {
+            background-color: #003366; /* Warna latar belakang tombol saat dihover */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Pencegahan Demam Berdarah Dengue (DBD)</h1>
+        <h1>Demam Berdarah Dengue (DBD)</h1>
 
         <section>
             <h2>Gejala</h2>
@@ -51,15 +64,8 @@
             <h2>Video Informasi</h2>
             <video class="large" controls>
                 <source src="pencegahandbd.mp4" type="video/mp4">
-                Your browser does not support the video tag.
             </video>
         </section>
-
-        <section>
-            <h2>Gambar Ilustrasi</h2>
-            <img src="imagesdbdp1.jpg" alt="Deskripsi gambar">
-        </section>
-
         <section>
             <h2>Diagnosis</h2>
             <article>
@@ -100,6 +106,8 @@
                 <p>Sumber: Ayo sehat Kemkes.</p>
             </article>
         </section>
+
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
     </div>
 </body>
 </html>
